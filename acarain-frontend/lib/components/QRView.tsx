@@ -1,4 +1,4 @@
-import { QRCodeSVG } from "qrcode.react"
+import { QRCodeSVG } from "qrcode"
 
 export default function QrView({ value }: { value: string }) {
   return (
