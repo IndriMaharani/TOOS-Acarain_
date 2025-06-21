@@ -26,7 +26,7 @@ Jalankan command di bawah ini satu per satu.
   cp .env.example .env
   npx prisma migrate dev
 ```
-Masukkan data berikut sebagai data awal akun admin.
+Masukkan data berikut langsung ke database menggunakan DBMS yang di pakai misal (PHPMyAdmin) sebagai data awal akun admin.
 - id: cmb0yhv5b0000qgrca2ch60bb
 - name: Siti Aspita
 - email: admin@gmail.com
@@ -47,7 +47,7 @@ Jalankan command di bawah ini satu per satu.
   cp .env.example .env
   npm run dev
 ```
-CMS akan berjalan di port http://localhost:3002
+CMS akan berjalan di port http://localhost:3002/panel
 ## Install Frontend
 
 Jalankan command di bawah ini satu per satu.
